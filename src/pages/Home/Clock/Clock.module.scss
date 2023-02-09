@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+
+    h1 {
+        font-size: 2.6rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    h5 {
+        font-weight: 500;
+    }
+}
+
+.content {
+    display: flex;
+}

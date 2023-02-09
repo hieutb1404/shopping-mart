@@ -1,0 +1,16 @@
+.common__section {
+    background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)),
+        url(../../assets/images/counter-timer-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.common__inner h1 {
+    color: var(--white);
+    font-weight: 600;
+}

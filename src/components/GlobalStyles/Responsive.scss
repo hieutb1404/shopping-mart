@@ -1,0 +1,343 @@
+/* Mobile & tablet  */
+@media (max-width: 1023px) {
+    html {
+        font-size: 63%;
+    }
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    html {
+        font-size: 55%;
+    }
+    .w-100 {
+        width: 100%;
+    }
+    //fix padding tablet
+    .Header_wrapper__krZBu,
+    .Header_wrapper-fixed__GXcCD {
+        padding: 0px 36px;
+    }
+    .Slider_wrapper__mJfNB {
+        padding: 5% 36px;
+    }
+    .Services_wrapper__cs0SF {
+        padding: 50px 36px;
+    }
+    .ProductsList_wrapper__xZBel h2 {
+        padding: 5px 36px;
+    }
+    .ProductsList_items__pEyTY {
+        padding: 28px 36px;
+    }
+    .Footer_wrapper__1GbxS {
+        padding: 60px 36px 30px 36px;
+    }
+    // fix padding clock
+    .Home_timer-count__friX1 {
+        padding: 28px 36px;
+    }
+    // padding filter
+    .FilterSearch_container__blhYC {
+        padding: 60px 36px;
+    }
+    // padding details product
+    .ProductDetails_container__X397o {
+        padding: 20px 36px;
+    }
+    // fix img product details
+    .ProductDetails_img__details__\+A7jh {
+        text-align: center;
+    }
+    .ProductDetails_img__details__\+A7jh img {
+        width: 60%;
+    }
+    //checkout tablet
+    .Checkout_wrapper__m-WfO {
+        padding: 46px 36px;
+    }
+    // fix cart
+    .Cart_message__nauiI {
+        width: 100%;
+    }
+    .Cart_wrapper__3xjkg {
+        padding: 50px 36px;
+    }
+
+    //header sidebar mobile
+    .navigation {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.53); // phủ đen toàn trang khi kéo navbar
+        z-index: 9999;
+        display: none;
+    }
+    .navigation ul {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 250px;
+        height: 100%;
+        margin: auto 0;
+        background-color: var(--white);
+        z-index: 99999;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        animation: dattenfadein ease-in-out 0.3s;
+    }
+    .active__menu {
+        display: block;
+    }
+    .Header_nav-item__E0Js8 {
+        font-size: 2.6rem;
+    }
+    /** vì sao phải dùng mã class ở devtool mà ko dùng class t đã đặt tên?
+     vì lần trc đó t dùng class scss và devtool trả cho mình 1 mã khác đó là Wetlg ở sau 
+     nên mỗi khi muốn sử dụng lại class này thì ta phải lấy class devtool đã trả lần trước đó để scss chứ k đc dùng class cũ  đã đặt tên
+    **/
+    .Header_navbars__wetLg {
+        display: block;
+    }
+
+    .Header_navbars-close__pqrh1 {
+        position: absolute;
+        font-size: 3.8rem;
+        top: 16%;
+        right: 20px;
+        display: block;
+    }
+    //slider
+    .Slider_inner__tR16z {
+        flex-wrap: wrap;
+    }
+    // services
+    .Services_item__TFcgF {
+        margin-top: 10px;
+    }
+    // img clock
+    .Home_counter-img__V6tFw {
+        display: none;
+    }
+    // clock
+    .Home_clock-top__qnQGO {
+        text-align: center;
+    }
+    .Clock_wrapper__BECeC {
+        justify-content: center;
+    }
+
+    @keyframes dattenfadein {
+        from {
+            opacity: 0;
+            transform: translateX(252px);
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    // shop
+    .CommonSection_common__section__nm7mp {
+        height: unset;
+        padding: 70px 0px;
+    }
+    .CommonSection_common__section__nm7mp h1 {
+        font-size: 2rem;
+    }
+    .FilterSearch_filter__gjrL4 {
+        margin-bottom: 20px;
+    }
+    .filter-mobile {
+        text-align: end;
+    }
+}
+/* > PC max resolution */
+@media (min-width: 1024px) and (max-width: 1239px) {
+    html {
+        font-size: 50%;
+    }
+}
+/* mobile */
+@media (max-width: 739px) {
+    html {
+        font-size: 50%;
+    }
+    .w-100 {
+        width: 100%;
+    }
+    //header sidebar mobile
+    .Header_wrapper__krZBu {
+        padding: 0 26px;
+    }
+    //header sidebar mobile
+    .Header_wrapper-fixed__GXcCD {
+        padding: 0 26px;
+    }
+    // slider
+    .Slider_wrapper__mJfNB {
+        padding: 28px 26px;
+    }
+    //services
+    .Services_wrapper__cs0SF {
+        padding: 30px 26px;
+    }
+    //filter
+    .FilterSearch_container__blhYC {
+        padding: 50px 26px;
+    }
+    // details product
+    .ProductDetails_container__X397o {
+        padding: 20px 26px;
+    }
+    // fix img product details
+    .ProductDetails_img__details__\+A7jh {
+        text-align: center;
+    }
+    .ProductDetails_img__details__\+A7jh img {
+        width: 60%;
+    }
+    //product
+    .ProductsList_items__pEyTY {
+        padding: 28px 26px;
+    }
+    //clock
+    .Home_timer-count__friX1 {
+        padding: 28px 26px;
+    }
+    //checkout
+    .Checkout_wrapper__m-WfO {
+        padding: 46px 26px;
+    }
+    .Checkout_label__2u76b {
+        font-size: 1.8rem;
+    }
+    .Checkout_buy__btn__foFZK a {
+        margin-top: unset;
+    }
+    //footer
+    .Footer_wrapper__1GbxS {
+        padding: 28px 26px;
+    }
+    // fix cart
+    .Cart_message__nauiI {
+        width: 100%;
+    }
+    .Cart_wrapper__3xjkg {
+        padding: 50px 26px;
+    }
+    .navigation {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.53); // phủ đen toàn trang khi kéo navbar
+        z-index: 9999;
+        display: none;
+    }
+    .Header_list__yJGNv {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 250px;
+        height: 100%;
+        margin: auto 0;
+        background-color: var(--white);
+        z-index: 99999;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        animation: dattenfadein ease-in-out 0.3s;
+    }
+    .active__menu {
+        display: block;
+    }
+    .Header_nav-item__E0Js8 {
+        font-size: 2rem;
+    }
+    /** vì sao phải dùng mã class ở devtool mà ko dùng class t đã đặt tên?
+     vì lần trc đó t dùng class scss và devtool trả cho mình 1 mã khác đó là Wetlg ở sau 
+     nên mỗi khi muốn sử dụng lại class này thì ta phải lấy class devtool đã trả lần trước đó để scss chứ k đc dùng class cũ  đã đặt tên
+    **/
+    .Header_navbars__wetLg {
+        display: block;
+    }
+    .Header_navbars-close__pqrh1 {
+        position: absolute;
+        font-size: 3.8rem;
+        top: 0;
+        right: 22px;
+        display: block;
+    }
+    //slider
+    .Slider_content__KBspo h2 {
+        font-size: 2.6rem;
+        margin: 6px 0px;
+    }
+    .Slider_description__-zm5t {
+        font-size: 1.7rem;
+    }
+    .Button_wrapper__GqKsN {
+        margin-top: 10px;
+    }
+    .Slider_inner__tR16z {
+        flex-wrap: wrap;
+    }
+    // services
+    .Services_item__TFcgF {
+        margin-top: 20px;
+    }
+    // img clock
+    .Home_counter-img__V6tFw {
+        display: none;
+    }
+    // clock
+    .Home_clock-top__qnQGO {
+        text-align: center;
+    }
+    .Clock_wrapper__BECeC {
+        justify-content: center;
+    }
+    @keyframes dattenfadein {
+        from {
+            opacity: 0;
+            transform: translateX(252px);
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    //productDetails
+    // rating
+    .rating__group {
+        column-gap: 0.5rem;
+    }
+    .CommonSection_common__section__nm7mp {
+        padding: 70px 0;
+        height: unset;
+    }
+    .CommonSection_common__inner__A-UTo h1 {
+        font-size: 2rem;
+    }
+    //fix margin rating
+    .ProductDetails_form__group__kFmYY span:nth-last-of-type(5) {
+        margin-left: unset !important;
+    }
+    .ProductDetails_form__group__kFmYY span {
+        margin-left: 10px !important;
+    }
+    // fix margin filter
+    .FilterSearch_filter__gjrL4 {
+        margin-bottom: 20px;
+    }
+    //fix filter
+    .filter-mobile {
+        text-align: end;
+    }
+}

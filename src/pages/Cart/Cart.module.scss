@@ -1,0 +1,54 @@
+.wrapper {
+    padding: 50px 10px;
+}
+table {
+    width: 100%;
+    text-align: center;
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+}
+.table thead tr th {
+    border-bottom: 1px solid var(--primary-color);
+    padding-bottom: 10px;
+}
+.table tr td img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.table tbody tr td i:nth-last-of-type(1) {
+    cursor: pointer;
+}
+.message {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 1.8rem;
+    width: 136%;
+}
+
+.title-cart {
+    color: #fff;
+}
+
+.btn-fixed {
+    margin-left: 0 !important;
+    margin-top: 20px;
+}
+.subtotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subtotal h6 {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+.subtotal span {
+    font-size: 2.2rem;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+.fw-100 {
+    width: 100%;
+}

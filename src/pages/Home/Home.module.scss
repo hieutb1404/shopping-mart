@@ -1,0 +1,54 @@
+.timer-count {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: var(--primary-color);
+    height: 300px;
+    padding: 28px 10px;
+    margin-bottom: 28px;
+}
+.title__loading {
+    font-size: 2.8rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+.inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.clock-top {
+    width: 100%;
+
+    color: var(--white);
+    h3 {
+        margin-bottom: 10px;
+    }
+
+    h4 {
+        font-size: 1.6rem;
+        font-weight: 300;
+    }
+}
+.counter-img {
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.buy__store {
+    margin-top: 36px;
+    border-radius: 5px;
+}
+.buy__store a {
+    margin-top: unset;
+    background-color: var(--white);
+    color: black;
+    font-weight: 600;
+    transition: linear 0.2s;
+
+    &:hover {
+        color: var(--white);
+    }
+}

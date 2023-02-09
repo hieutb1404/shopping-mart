@@ -1,0 +1,61 @@
+.wrapper {
+    padding: 60px 10px;
+}
+.title__loading {
+    text-align: center;
+    font-size: 3rem;
+}
+.title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.4rem;
+    margin-bottom: 14px;
+    color: var(--primary-color);
+}
+.auth__form {
+    background-color: var(--primary-color);
+    padding: 40px;
+    border-radius: 5px;
+}
+.form__group {
+    border-radius: 5px;
+}
+.form__group input {
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+.auth__btn {
+    background: var(--primary-color);
+    font-weight: 600;
+    width: 100%;
+
+    a {
+        background-color: var(--white);
+        color: var(--primary-color);
+        font-weight: 600;
+
+        &:hover {
+            color: var(--white);
+        }
+    }
+}
+.auth__form p {
+    color: rgba(255, 255, 255, 0.735);
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.4rem;
+}
+.auth__form p a {
+    color: var(--white);
+
+    &:hover {
+        color: var(--primary);
+    }
+}
+
+.auth__form input[type='file'] {
+    color: var(--white);
+    cursor: pointer;
+}

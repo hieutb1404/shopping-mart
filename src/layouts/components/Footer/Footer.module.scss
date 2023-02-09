@@ -1,0 +1,52 @@
+.wrapper {
+    padding: 60px 10px 30px 10px;
+    background: var(--primary-color);
+}
+.logo {
+    display: flex;
+    gap: 10px;
+}
+.logo img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.logo h1 {
+    font-size: 1.8rem;
+}
+.logo-name {
+    font-size: 1.8rem;
+    color: var(--white);
+}
+
+.text {
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.735);
+}
+.title {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--white);
+}
+.item {
+    padding-top: 12px;
+    display: flex;
+    gap: 10px;
+    a {
+        color: rgba(255, 255, 255, 0.735);
+    }
+    span {
+        color: rgba(255, 255, 255, 0.735);
+    }
+    p {
+        color: rgba(255, 255, 255, 0.735);
+    }
+}
+.item:nth-child(1) {
+    padding-top: 28px;
+}
+.copyright {
+    color: rgba(255, 255, 255, 0.735);
+    font-size: 1.4rem;
+    margin-top: 60px;
+    text-align: center;
+}
